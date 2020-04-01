@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.professor.feedbackform">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/auroralogo"
+        android:label="MGIT Feedback app"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:label="MGIT Feedback app"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AdminLogin"
+            android:label="@string/title_activity_admin_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminHome"
+            android:label="@string/title_activity_admin_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FacultyList"
+            android:label="@string/title_activity_faculty_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddFaculty"
+            android:label="@string/title_activity_add_faculty"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FeedbackHome"
+            android:label="@string/title_activity_feedback_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UploadFeedback"
+            android:label="@string/title_activity_upload_feedback"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewFeedback"
+            android:label="@string/title_activity_view_feedback"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FacultyScreen"
+            android:label="@string/title_activity_faculty_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".StudentLoginActivity" />
+        <activity android:name=".StudentSignupActivity" />
+    </application>
+
+</manifest>
